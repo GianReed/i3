@@ -1,18 +1,4 @@
-# setupi3
-
-This is an experimental project to setup up a nice i3 desktop environment running on Ubuntu 15.04.
-
-The setup steps are mostly following this youtube tutorial by Alex:
-https://www.youtube.com/watch?v=j1I63wGcvU4.
-
-## Usage:
-
-```
-git clone https://github.com/Xunius/setupi3.git && cd setupi3
-sudo ./setupi3.sh
-```
-
-## Major changes performed by the `setupi3.sh` 
+##Setting up i3 on Ubuntu
 
 ### Install i3
 ```
@@ -189,11 +175,3 @@ cp /etc/i3blocks.conf ~/.i3/
 3. Edit the `~/.i3/i3blocks.conf` file.
 
 
-
-
-### Fix the **volume** bar block problem
-
-The command i3blocks uses to detect the system volume is located
-at `/usr/share/i3blocks/volume`.
-
-Need to change this to `/usr/share/i3blocks/volume 5 pulse` to correctly detect. This should be added in the [volume] section in the `i3blocks.conf` file.
