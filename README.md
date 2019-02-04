@@ -174,4 +174,6 @@ cp /etc/i3blocks.conf ~/.i3/
 
 3. Edit the `~/.i3/i3blocks.conf` file.
 
+Using xprop to find String
+
 
